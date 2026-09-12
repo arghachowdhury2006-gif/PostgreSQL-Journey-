@@ -8,7 +8,7 @@ Learning PostgreSQL, from basic SQL queries to advanced techniques and real-worl
 
 ## 📚 Sections
 
-1. [Basic CRUD & Constraints](./01-Basic-CRUD-and-Constraints)
+1. [CRUD & Table Operations](./01-CRUD-&-Table-Operations)
 2. [Table Mutations, String Functions & CASE Statements](./02-Alter-and-Advanced-Functions)
 3. [Advanced Grouping with CASE](./03-Advanced-Grouping)
 4. [Conditional Bulk Updates](./04-Conditional-Updates)
