@@ -10,7 +10,7 @@ Learning PostgreSQL, from basic SQL queries to advanced techniques and real-worl
 
 1. [CRUD & Table Operations](./01-CRUD-and-Table-Operations)
 2. [Datatypes & Constraints](./02-Datatypes-and-Constraints)
-3. [Advanced Grouping with CASE](./03-Advanced-Grouping)
+3. [Filtering & Grouping with Operators](./03-Data_Refining-Operators-and-Grouping)
 4. [Conditional Bulk Updates](./04-Conditional-Updates)
 5. [Stock Audit & HAVING Clause](./05-Audit-and-Having-Clause)
 6. [Foreign Keys & Referential Integrity](./06-Foreign-Keys-and-Relations)
