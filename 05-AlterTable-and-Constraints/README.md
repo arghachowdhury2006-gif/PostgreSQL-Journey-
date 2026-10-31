@@ -1,6 +1,6 @@
-# ALTER TABLE & Constraints 🐘
+# Table Alterations & CASE Statements 🐘
 
-Practiced modifying table structures and managing constraints in PostgreSQL.
+Practiced modifying table structures, managing constraints, conditional logic, and calculated columns in PostgreSQL.
 
 ## Concepts
 
@@ -9,4 +9,7 @@ Practiced modifying table structures and managing constraints in PostgreSQL.
 | ALTER TABLE | ADD / DROP COLUMN |
 | RENAME COLUMN | ALTER COLUMN |
 | DEFAULT | CHECK Constraint |
-| INSERT | UPDATE |
+| INSERT / UPDATE | CASE Statements |
+| WHEN / THEN / ELSE | Salary Categorization |
+| Calculated Columns | Arithmetic Operations |
+| GROUP BY | COUNT() |
