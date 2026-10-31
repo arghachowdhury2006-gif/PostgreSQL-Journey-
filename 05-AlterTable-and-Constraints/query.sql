@@ -59,3 +59,41 @@ CHECK (LENGTH(mob) >= 10);
 UPDATE person
 SET mob = '70917852'
 WHERE id = 102;
+
+
+
+
+
+
+-- Categorize salary as HIGH or LOW
+SELECT fname, salary,
+CASE
+    WHEN salary >= 50000 THEN 'HIGH'
+    ELSE 'LOW'
+END AS sal_cat
+FROM employees;
+
+-- Categorize salary as HIGH, MID or LOW
+SELECT fname, salary,
+CASE
+    WHEN salary > 50000 THEN 'HIGH'
+    WHEN salary BETWEEN 40000 AND 50000 THEN 'MID'
+    ELSE 'LOW'
+END AS sal_cat
+FROM employees;
+
+-- Calculate 10% bonus
+SELECT fname, salary,
+(salary / 10) AS bonus
+FROM employees;
+
+-- Count employees by salary category
+SELECT
+    CASE
+        WHEN salary >= 50000 THEN 'HIGH'
+        WHEN salary BETWEEN 40000 AND 50000 THEN 'LOW'
+        ELSE 'MID'
+    END AS sal_cat,
+    COUNT(*)
+FROM employees
+GROUP BY sal_cat;
