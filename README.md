@@ -12,7 +12,7 @@ Learning PostgreSQL, from basic SQL queries to advanced techniques and real-worl
 2. [Datatypes & Constraints](./02-Datatypes-and-Constraints)
 3. [Filtering & Grouping with Operators](./03-Data_Refining-Operators-and-Grouping)
 4. [String Functions](./04-String-Functions)
-5. [AlterTable & Constraints](./05-AlterTable-and-Constraints)
+5. [AlterTable, Constraints & Case](./05-Alter-Table-Constraints-Case)
 6. [Foreign Keys & Referential Integrity](./06-Foreign-Keys-and-Relations)
 7. [INNER JOIN & Cross-Table Math](./07-Inner-Joins)
 8. [LEFT JOIN & Anti-Join Pattern](./08-Left-Joins)
